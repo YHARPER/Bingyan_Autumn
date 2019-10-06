@@ -117,6 +117,7 @@ public class MyCalculator extends JFrame{
 					 text.setText(text.getText()+equ.getText());
 
 					 if(text.getText().contains("+")){//做加法运算
+//					         String[] str1 = text.getText().split("+")//错误语句
                              StringTokenizer st1 = new StringTokenizer(text.getText(),"+");
 								 //System.out.println("str1======"+st1.nextTolen());
 							 double d1,d2 = 0;
